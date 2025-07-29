@@ -49,9 +49,13 @@ export function HeroSection() {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
-        <h1 className="text-6xl md:text-8xl font-bold text-dusty-mauve mb-6 animate-bounce-slow drop-shadow-lg">
-          🎉 Happy Birthday! 🎉
-        </h1>
+        <div className="mb-8 rows-1 flex justify-center items-center gap-2">
+          <h1 className="text-6xl md:text-8xl font-bold text-dusty-mauve mb-6 animate-bounce-slow drop-shadow-lg"> 🎉</h1>
+          <h1 className="text-6xl md:text-8xl font-bold text-dusty-mauve mb-6 animate-bounce-slow drop-shadow-lg">
+            Happy Birthday! 
+          </h1>
+          <h1 className="text-6xl md:text-8xl font-bold text-dusty-mauve mb-6 animate-bounce-slow drop-shadow-lg"> 🎉</h1>
+        </div>
         <p className="text-2xl md:text-3xl text-dusty-mauve font-semibold mb-8 drop-shadow-md bg-ivory/60 rounded-lg px-6 py-3">
           Celebrating another year of wonderful you!
         </p>

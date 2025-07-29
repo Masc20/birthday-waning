@@ -36,20 +36,20 @@ export function BirthdayMessage() {
             </h2>
             <div className="prose prose-lg max-w-none text-dusty-mauve">
               <p className="text-xl md:text-2xl leading-relaxed mb-6 font-medium">
-                On this special day, we celebrate not just another year of your life, but another year of the joy,
-                laughter, and love you bring to everyone around you.
+               Happy 20th Birthday, Waniiiing! 🎉
               </p>
               <p className="text-lg md:text-xl leading-relaxed mb-6 font-medium">
-                Your kindness lights up every room you enter, your smile brightens even the cloudiest days, and your
-                friendship is a gift that keeps on giving. Today, we honor the amazing person you are and all the
-                wonderful memories we've shared together.
+                First of all, I want to thank you for the wonderful friendship we've built over the years. Your kindness, support, and laughter have made my life so much brighter. 
+                You've inspired me to  change and do something (not gonna disclose it)
               </p>
               <p className="text-lg md:text-xl leading-relaxed font-medium">
-                May this new year of your life be filled with endless adventures, beautiful moments, and dreams that
-                come true. You deserve all the happiness in the world!
+                May this new year of your life be filled with endless adventures, beautiful moments, and dreams that come true. 
+                My wish for you is that you continue to shine bright and inspire those around you, and to continue pursuing your passions (don't undang², daghan naghuwat nimo sa stage baya). 
+                You deserve all the happiness in the world!
               </p>
             </div>
             <div className="mt-8 text-2xl font-semibold text-dusty-mauve">🎈 With love and best wishes 🎈</div>
+            <div className="mt-2 text-lg font-medium text-dusty-mauve">-Mel</div>
           </div>
         </Card>
       </div>

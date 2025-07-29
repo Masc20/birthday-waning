@@ -29,12 +29,11 @@ export function MusicPlayer() {
   const togglePlay = () => {
     if (!audioRef.current || !hasInteracted) return
 
-    if (isPlaying) {
-      audioRef.current.pause()
-    } else {
+    if (audioRef.current.paused) {
       audioRef.current.play().catch(console.error)
+    } else {
+      audioRef.current.pause()
     }
-    setIsPlaying(!isPlaying)
   }
 
   const toggleMute = () => {
