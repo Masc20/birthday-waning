@@ -46,7 +46,7 @@ const photos = [
     id: 6,
     src: "/gallery/wink-wink.jpg",
     alt: "Group photo",
-    caption: "'wink'😜",
+    caption: "'Stay Humble'😜",
     message: "Happy birthday, Joana! May you enjoy your day as much as we enjoy your company. I wish you even more blessings in life. Always spread positive vibes. Stay pretty — and remember, not as a bully (sa akoa).",
   },
 ] 
