@@ -40,7 +40,7 @@ export function BirthdayMessage() {
               </p>
               <p className="text-lg md:text-xl leading-relaxed mb-6 font-medium">
                 First of all, I want to thank you for the wonderful friendship we've built over the years. Your kindness, support, and laughter have made my life so much brighter. 
-                You've inspired me to  change and do something (not gonna disclose it)
+                You've inspired me to change and do something (not gonna disclose it)
               </p>
               <p className="text-lg md:text-xl leading-relaxed font-medium">
                 May this new year of your life be filled with endless adventures, beautiful moments, and dreams that come true. 

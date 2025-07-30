@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Happy Birthday Waniiiing!!',
   description: 'Sorry medyo late gyud HAHAHAHA',
   icons: {
-    icon: '/gallery/'
+    icon: '/gallery/quack.png'
   }
 }
 
