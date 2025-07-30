@@ -12,21 +12,21 @@ const photos = [
     src: "/gallery/pic1.jpeg",
     alt: "Joana Angel Version",
     caption: '"One of the very small people"',
-    message: "You are one of the very small people who made me realize many things big and small. Thank you is not enough for how much you opened my eyes. I will always cherish the memories we made together. Good luck on your future endeavors and lablayp nimo gurl. (Mel)",
+    message: "You are one of the very small people who made me realize many things big and small. Thank you is not enough for how much you opened my eyes. I will always cherish the memories we made together. Good luck on your future endeavors and lablayp nimo gurl. -Mel",
   },
   {
     id: 2,
     src: "/gallery/pacute.jpg",
     alt: "DND person",
     caption: "Rapper daw",
-    message: "Happy birthday to our sleepyhead, talkative nga naay pagka rapper, independent gurlalo?, and pretty friend waningning. You're a strong and amazing girl I know.  Just stay who you are, and I  wish you all the best today and always. Enjoy your day because you deserve it☺️. And no matter how tough the world is, keep fighting. We're always here for you, no matter what happens (sabi ng naka DND HAHAHAHAHAHAHHA)",
+    message: "Happy birthday to our sleepyhead, talkative nga naay pagka rapper, independent gurlalo?, and pretty friend waningning. You're a strong and amazing girl I know.  Just stay who you are, and I  wish you all the best today and always. Enjoy your day because you deserve it☺️. And no matter how tough the world is, keep fighting. We're always here for you, no matter what happens (sabi ng naka DND HAHAHAHAHAHAHHA) -ate she",
   },
   {
     id: 3,
     src: "/gallery/meraki.jpg",
     alt: "MERAKI BAND",
     caption: "MERAKI BAND ️",
-    message: "First Intrams together, I think. Nag buy tag ticket duha para makakita sa kung crush and to support the band. Our first time pud na dugay makauli, thankyouu so much bb, kay gi ubanan ko nimo kani na time to witness and to support me delulu moment. (Rhea)",
+    message: "First Intrams together, I think. Nag buy tag ticket duha para makakita sa kung crush and to support the band. Our first time pud na dugay makauli, thankyouu so much bb, kay gi ubanan ko nimo kani na time to witness and to support me delulu moment. -Yang",
   },
   {
     id: 4,
@@ -40,14 +40,21 @@ const photos = [
     src: "/gallery/meow.png",
     alt: "Meow",
     caption: "CUTIE",
-    message: "Everytime makakita kag cat, imo jud e bebe. Cutie kay ka basta makakita kag cat. Katong time nga nanganak akung cat kay wajud ka duhaduha ni adto ug balay para makakita. Cutieee kaymooo, also miss na nako si sweetieeee (Rhea)",
+    message: "Everytime makakita kag cat, imo jud e bebe. Cutie kay ka basta makakita kag cat. Katong time nga nanganak akung cat kay wajud ka duhaduha ni adto ug balay para makakita. Cutieee kaymooo, also miss na nako si sweetieeee -Yang",
   },
   {
     id: 6,
     src: "/gallery/wink-wink.jpg",
     alt: "Group photo",
     caption: "'Stay Humble'😜",
-    message: "Happy birthday, Joana! May you enjoy your day as much as we enjoy your company. I wish you even more blessings in life. Always spread positive vibes. Stay pretty — and remember, not as a bully (sa akoa).",
+    message: "Happy birthday, Joana! May you enjoy your day as much as we enjoy your company. I wish you even more blessings in life. Always spread positive vibes. Stay pretty — and remember, not as a bully (sa akoa). -Miss Jehn",
+  },
+   {
+    id: 7,
+    src: "/gallery/linux.jpg",
+    alt: "Group photo",
+    caption: "Pray sad lagy panagsa ",
+    message: "Marie, Wishing you the happiest of birthdays and a year filled with health, happiness, and success. Always remember to pray in times of down and trouble for courage. Be strong for reaching your dreams. Happy Birthday once again and Godbless. -Sir Rye",
   },
 ] 
 
@@ -97,7 +104,7 @@ export function PhotoGallery() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          Memories 📷
+          Gallery 📷
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
